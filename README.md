@@ -4,4 +4,4 @@
 
         ImageNet Classification with Deep Convolutional Neural Networks
 
->This code uses Adam algorithm for simplicity instead of stochastic gradient descent with momentum in the paper
+>This code uses Adam algorithm for simplicity instead of stochastic gradient descent with momentum in the original paper
