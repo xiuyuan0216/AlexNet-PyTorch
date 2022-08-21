@@ -40,7 +40,7 @@ class AlexNet(nn.Module):
             nn.ReLU(),
             nn.Conv2d(in_channels=384, out_channels=256, kernel_size=3, padding=1), #   size: (batch_size*256*13*13)
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=3, stride=2) # size: (batch_size*6*6)
+            nn.MaxPool2d(kernel_size=3, stride=2) # size: (batch_size*256*6*6)
         )
         
         #   fully connected layers
