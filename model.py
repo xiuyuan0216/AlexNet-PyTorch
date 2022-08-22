@@ -53,6 +53,7 @@ class AlexNet(nn.Module):
             nn.ReLU(),
             nn.Linear(in_features=4096, out_features=num_classes)   #   size: (batch_size*1000)
         )
+        self.init_bias()
         
     def init_bias(self):
         for layer in self.conv:
